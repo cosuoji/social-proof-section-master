@@ -70,11 +70,11 @@ img{
 
 .info{
     display: flex;
-    flex-direction: row;
+    flex-flow: row wrap;
     align-items: center;
     text-align: left;
     padding: 15px;
-    width: 50%;
+
 }
 .info span{
   color:hsl(333, 80%, 67%);
@@ -88,9 +88,9 @@ img{
 }
 
 .info p{
-    margin-left: 1rem;
     line-height: 1.5rem;
     font-weight: 700;
+    margin-left: 1rem;
 }
 
 .solo{
