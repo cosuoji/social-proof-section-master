@@ -113,8 +113,13 @@ img{
 
     .mainarea .heading{
         width: 30%;
+        padding-left: 1rem;
     }
 
+    .mainarea h1{
+        font-size: 4rem;
+        font-weight: 700;
+    }
     .mainarea article{
       width: 40%;
     }
