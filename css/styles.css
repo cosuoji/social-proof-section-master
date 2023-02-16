@@ -1,0 +1,159 @@
+/* 
+font-family: 'League Spartan', sans-serif;
+### Primary
+
+Very Dark Magenta: hsl(300, 43%, 22%)
+Soft Pink: hsl(333, 80%, 67%)
+
+### Neutral
+
+Dark Grayish Magenta: hsl(303, 10%, 53%)
+Light Grayish Magenta: hsl(300, 24%, 96%)
+White: hsl(0, 0%, 100%)
+
+## Typography
+- Weights: 400, 500, 700
+
+*/
+
+body{
+    font-family: 'League Spartan', sans-serif;
+    color: hsl(300, 43%, 22%);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.container{
+   text-align: center;
+   margin-top: 100px;
+   width: 90%;
+}
+
+img{
+    border-radius: 50%;
+}
+
+.maintext{
+   line-height: 1.5rem;
+   width: 100%;
+}
+
+.rating p{
+    font-weight: 700;
+}
+
+.rating {
+    background-color: hsl(300, 24%, 96%);
+    padding: 5px;
+    margin: 15px;
+    border-radius: 15px;
+}
+
+.rating .stars{
+    margin-top: 20px;
+}
+
+.panels p{
+    color: white;
+}
+
+.panels{
+    background-color: hsl(300, 43%, 22%);
+    text-align: left;
+    padding: 5px;
+    border-radius: 15px;
+    margin: 15px;
+}
+
+.info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: left;
+    padding: 15px;
+    width: 50%;
+}
+.info span{
+  color:hsl(333, 80%, 67%);
+  display: block;
+  font-weight: 500;
+}
+
+.info img{
+    width: 50px;
+    height: 50px;
+}
+
+.info p{
+    margin-left: 1rem;
+    line-height: 1.5rem;
+    font-weight: 700;
+}
+
+.solo{
+ padding: 15px;
+ text-align: left;
+ line-height: 1.5rem;
+ width: 80%;
+ margin-top: -15px;
+}
+
+@media screen and (min-width: 1440px) {
+
+
+    .mainarea{
+        display: flex;
+        flex-flow: row;
+        text-align: left;
+        justify-content: space-between;
+    }
+
+    .mainarea .heading{
+        width: 30%;
+    }
+
+    .mainarea article{
+      width: 40%;
+    }
+
+    .rating {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .rating p{
+        display: inline;
+    }
+
+    .rating .stars{
+        margin-top: 0;
+    }
+    
+    .rating:nth-child(1){
+        margin-right: 10rem;
+        margin-left: -5rem;
+    }
+    .rating:nth-child(2){
+        margin-right: 5rem;
+        margin-left: -2.5rem;
+    }
+
+    .testimonials{
+        display: flex;
+    }
+
+    .panels:nth-child(2){
+        border: 2px solid black;
+        margin-top: 5rem;
+        margin-bottom: -2.5rem;
+    }
+
+    .panels:nth-child(3){
+        border: 2px solid black;
+        margin-top: 10rem;
+        margin-bottom: -5rem;
+    }
+}
